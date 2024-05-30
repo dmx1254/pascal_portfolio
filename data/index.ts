@@ -205,14 +205,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/instagram.svg",
+    path: "https://www.instagram.com/pascal_csr/"
   },
   {
     id: 2,
     img: "/tiktok.svg",
+    path: "https://www.tiktok.com/@pascal_csr"
   },
 
   {
     id: 3,
     img: "/linkedin.svg",
+    path: "https://www.linkedin.com/in/pascal_csr/"
   },
 ];
