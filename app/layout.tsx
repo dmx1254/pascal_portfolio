@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   title: "Pascal Cesar Ndecky Entrepreneur - Conférencier - Motivateur",
   description:
     "J'aide les jeunes à créer et développer leurs entreprises pour réaliser leurs rêves.",
+  icons: {
+    icon: "/pascal-icon.png",
+  },
 };
 
 export default function RootLayout({
