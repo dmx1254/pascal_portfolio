@@ -23,80 +23,65 @@ export function EnjoyedMoment() {
 export const products = [
   {
     title: "Moonbeam",
-    link: "https://google.com",
     thumbnail: pascal1,
   },
   {
     title: "Cursor",
-    link: "https://google.com",
     thumbnail: pascal2,
   },
   {
     title: "Rogue",
-    link: "https://google.com",
     thumbnail: pascal3,
   },
 
   {
     title: "Editorially",
-    link: "https://google.com",
     thumbnail: pascal4,
   },
   {
     title: "Editrix AI",
-    link: "https://google.com",
     thumbnail: pascal5,
   },
   {
     title: "Pixel Perfect",
-    link: "https://google.com",
     thumbnail: pascal6,
   },
 
   {
     title: "Algochurn",
-    link: "https://google.com",
     thumbnail: pascal7,
   },
   {
     title: "Aceternity UI",
-    link: "https://google.com",
     thumbnail: pascal8,
   },
   {
     title: "Tailwind Master Kit",
-    link: "https://google.com",
     thumbnail: pascal9,
   },
   {
     title: "SmartBridge",
-    link: "https://google.com",
     thumbnail: pascal10,
   },
   {
     title: "Renderwork Studio",
-    link: "https://google.com",
     thumbnail: pascal11,
   },
 
   {
     title: "Creme Digital",
-    link: "https://google.com",
     thumbnail: pascal12,
   },
   {
     title: "Golden Bells Academy",
-    link: "https://google.com",
     thumbnail: pascal13,
   },
   {
     title: "Invoker Labs",
-    link: "https://google.com",
     thumbnail: pascal14,
   },
   {
     title: "E Free Invoice",
-    link: "https://google.com",
     thumbnail: pascal15,
   },
 ];

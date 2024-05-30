@@ -15,8 +15,7 @@ export const HeroParallax = ({
 }: {
   products: {
     title: string;
-    link?: string;
-    thumbnail: string | any;
+    thumbnail: string;
   }[];
 }) => {
   const firstRow = products.slice(0, 5);
@@ -110,7 +109,7 @@ export const Header = () => {
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
         Découvrez les moments mémorables et les photos prises lors de mes
         rencontres avec les jeunes après mes conférences. Une expérience
-        enrichissante où l'inspiration et la motivation se rencontrent.
+        enrichissante où l&apos;inspiration et la motivation se rencontrent.
       </p>
     </div>
   );
@@ -122,7 +121,6 @@ export const ProductCard = ({
 }: {
   product: {
     title: string;
-    link: string;
     thumbnail: string;
   };
   translate: MotionValue<number>;
@@ -138,8 +136,7 @@ export const ProductCard = ({
       key={product.title}
       className="group/product h-96 w-[30rem] relative flex-shrink-0"
     >
-      <Link
-        href={product.link}
+      <div
         className="block group-hover/product:shadow-2xl "
       >
         <Image
@@ -149,7 +146,7 @@ export const ProductCard = ({
           className="object-cover object-left-top absolute h-full w-full inset-0"
           alt={product.title}
         />
-      </Link>
+      </div>
       <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
       <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
         {product.title}
