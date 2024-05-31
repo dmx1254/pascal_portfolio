@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import Image, { StaticImageData } from "next/image";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -13,6 +14,7 @@ export const InfiniteMovingCards = ({
   items: {
     quote: string;
     name: string;
+    icon: StaticImageData;
     title: string;
   }[];
   direction?: "left" | "right";
@@ -73,7 +75,7 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20  max-w-7xl overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20  max-w-7xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
         className
       )}
     >
@@ -87,7 +89,7 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className="w-[400px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 p-5 md:w-[500px]"
+            className="w-[360px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-slate-800 p-5 md:w-[420px]"
             style={{
               background: "rgb(4,7,29)",
               backgroundColor:
@@ -106,7 +108,14 @@ export const InfiniteMovingCards = ({
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
                   <div className="me-3">
-                    <img src="/profile.svg" alt="profile" />
+                    <Image
+                      src={item.icon}
+                      alt={item.name}
+                      width={60}
+                      height={60}
+                      quality={100}
+                      className="flex items-center justify-center rounded-full"
+                    />
                   </div>
                   <div className="flex flex-col gap-1">
                     <span className="leading-[1.6] text-white font-bold text-base">

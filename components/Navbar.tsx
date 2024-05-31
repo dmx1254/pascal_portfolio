@@ -34,8 +34,8 @@ const Navbar = () => {
       }}
     >
       <div className="flex items-center justify-between h-[70px] max-w-7xl mx-auto">
-        <a href="#" className="text-white font-merriweather font-bold text-2xl">
-          Pascal.
+        <a href="/" className="text-white font-merriweather font-bold text-2xl">
+          PascalCesar.
         </a>
         <div className="md:flex hidden items-center gap-8">
           <a
@@ -98,7 +98,7 @@ const Navbar = () => {
                   href="#"
                   className="-mt-[18px] text-white font-merriweather font-bold text-2xl"
                 >
-                  Pascal.
+                  PascalCesar.
                 </a>
                 <div className="flex flex-col items-start gap-8 my-16 text-lg">
                   <a

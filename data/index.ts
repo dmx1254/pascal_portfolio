@@ -1,3 +1,10 @@
+import { StaticImageData } from "next/image";
+import adrian from "@/public/client/adrian.jpg";
+import amala from "@/public/client/amala.jpg";
+import ramiro from "@/public/client/ramiro.jpg";
+import pboy from "@/public/client/pboy.jpg";
+import elmbeng from "@/public/client/elmbeng.jpg";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -107,68 +114,40 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Votre travail intelligent et vos efforts finissent toujours par payer ! Un succès bien mérité, une occasion à célébrer.",
+    name: "Adrian Prieto",
+    icon: adrian as StaticImageData,
+    title: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Dans la vie, que fais-tu ? Je te suis toujours sur les réseaux sociaux à travers tes publications. À ton âge, tu es la fierté de la jeunesse.",
+    name: "Cheikhna Hamala Diallo",
+    icon: amala as StaticImageData,
+    title: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Il est très bénéfique d'essayer quelqu'un de nouveau. La mesure prise ne pourrait pas être meilleure. Je suis content de t'avoir rencontré.",
+    name: "Ramiro pedro",
+    icon: ramiro as StaticImageData,
+    title: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Tellement fiers de toi, mon ami, que je ne trouve même pas les mots pour tout ce que tu fais. Dieu est au contrôle, concentre-toi.",
+    name: "Pboy",
+    icon: pboy as StaticImageData,
+    title: "",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Ton histoire ne fait que commencer, très cher. Tu symbolises à la perfection le mot détermination et l'inspiration constante.",
+    name: "El Mbenguez",
+    icon: elmbeng as StaticImageData,
+    title: "",
   },
 ];
-
-// export const companies = [
-//   {
-//     id: 1,
-//     name: "cloudinary",
-//     img: "/cloud.svg",
-//     nameImg: "/cloudName.svg",
-//   },
-//   {
-//     id: 2,
-//     name: "appwrite",
-//     img: "/app.svg",
-//     nameImg: "/appName.svg",
-//   },
-//   {
-//     id: 3,
-//     name: "HOSTINGER",
-//     img: "/host.svg",
-//     nameImg: "/hostName.svg",
-//   },
-//   {
-//     id: 4,
-//     name: "stream",
-//     img: "/s.svg",
-//     nameImg: "/streamName.svg",
-//   },
-//   {
-//     id: 5,
-//     name: "docker.",
-//     img: "/dock.svg",
-//     nameImg: "/dockerName.svg",
-//   },
-// ];
 
 export const workExperience = [
   {
@@ -205,17 +184,27 @@ export const socialMedia = [
   {
     id: 1,
     img: "/instagram.svg",
-    path: "https://www.instagram.com/pascal_csr/"
+    path: "https://www.instagram.com/pascal_csr?igsh=aDN6YzNrOHRlOXNo",
   },
   {
     id: 2,
     img: "/tiktok.svg",
-    path: "https://www.tiktok.com/@pascal_csr"
+    path: "https://www.tiktok.com/@pascal_csr?_t=8mnFTOqm6Qz&_r=1",
+  },
+  {
+    id: 3,
+    img: "/facebook.svg",
+    path: "https://www.facebook.com/pascalcsr",
   },
 
   {
-    id: 3,
-    img: "/linkedin.svg",
-    path: "https://www.linkedin.com/in/pascal_csr/"
+    id: 4,
+    img: "/snapchat.svg",
+    path: "https://www.snapchat.com/add/paskyy22?share_id=l2xy2onpROqHTAnMPtMIiQ&locale=fr_FR",
+  },
+  {
+    id: 5,
+    img: "/threads.svg",
+    path: "https://www.threads.net/@pascal_csr",
   },
 ];

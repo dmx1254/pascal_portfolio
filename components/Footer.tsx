@@ -24,7 +24,7 @@ const Footer = () => {
           Contactez-moi dès aujourd&apos;hui et discutons de la manière dont je
           peux vous aider à atteindre vos objectifs.
         </p>
-        <a href="mailto:pascalcesar@gmail.com">
+        <a href="mailto:Pascalcesarcontact@gmail.com">
           <MagicButton
             title="Prenons contact"
             icon={<FaLocationArrow />}
@@ -42,7 +42,6 @@ const Footer = () => {
             <a
               href={info.path}
               target="_blank"
-              rel="noopener noreferrer"
               key={info.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
