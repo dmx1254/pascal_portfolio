@@ -14,7 +14,7 @@ const Calend = () => {
     <div className="calend">
       {isClient && (
         <PopupWidget
-          url="https://calendly.com/mamadousy1254/tete-a-tete"
+          url="https://calendly.com/mamadousy1254"
           rootElement={document.getElementById("root")}
           text="Plannifier un appel!"
           textColor="#ffffff"
