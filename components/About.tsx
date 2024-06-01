@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="flex flex-col items-center text-gray-900 py-16 p-4 w-full z-50"
+      className="flex flex-col items-center text-gray-900 mb-16 mt-24 p-4 w-full z-50"
     >
       <h3 className="text-white text-2xl md:text-4xl font-bold">
         Transformer la <span className="text-purple">vision en réalité</span>

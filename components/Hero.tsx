@@ -19,9 +19,9 @@ const Hero = () => {
 
       <div className="w-full relative flex flex-col items-center -mt-20 mx-auto self-center">
         <div className="hero img-blur relative flex items-center justify-center">
-          <h1 className="top-[16%] xs:top-[20%] left-[14%] xs:left-[-20%] md:left-[-50%] text-2xl xs:text-xl md:text-2xl font-bold absolute">
+          {/* <h1 className="top-[16%] xs:top-[20%] left-[14%] xs:left-[-20%] md:left-[-50%] text-2xl xs:text-xl md:text-2xl font-bold absolute">
             Pascal Cesar
-          </h1>
+          </h1> */}
           <img
             src="/pascalrm.png"
             alt="Pascal Cesar Entrepreneur, conférencier et motivateur"
