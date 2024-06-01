@@ -32,8 +32,8 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-10 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-sm text-xs md:font-normal font-light text-white-200">
+      <div className="flex mt-10 md:flex-row flex-col-reverse justify-between items-center">
+        <p className="md:text-sm text-xs md:font-normal font-light text-white-200 mt-6 md:mt-0">
           Copyright © 2024 Pascal Cesar
         </p>
 

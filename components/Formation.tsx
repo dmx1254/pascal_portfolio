@@ -73,7 +73,7 @@ const Formation = () => {
         className="-mt-6 md:-mt-10 cursor-pointer"
       >
         <MagicButton
-          title="Rejoins nous"
+          title="Rejoignez nous"
           icon={<span />}
           position="right"
         />
