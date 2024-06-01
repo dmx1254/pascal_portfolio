@@ -22,7 +22,7 @@ const About = () => {
         <div className="w-full md:w-1/2 text-white h-full mt-2 md:mt-12">
           <p className="text-base leading-relaxed mb-4">
             Je m&apos;appelle{" "}
-            <span className="font-bold">Pascal Cesar Ndecky</span>, un jeune
+            <span className="font-bold">Pascal Cesar</span>, un jeune
             entrepreneur sénégalais, conférencier inspirant et motivateur
             infatigable résidant en France. Avec un mélange unique de sens des
             affaires et de talent pour la motivation, j&apos;ai su me faire une
@@ -60,9 +60,16 @@ const About = () => {
               dans le besoin.
             </li>
             <li className="mb-2">
-              <span className="font-bold">Auteur publié :</span> Auteur de
-              &ldquo;La route vers la richesse&ldquo;, un guide complet pour
-              réussir financièrement.
+              <span className="font-bold">Livre :</span> Auteur de &ldquo;La
+              route vers la richesse&ldquo;, un guide complet pour réussir
+              financièrement.
+            </li>
+            <li className="mb-2">
+              <span className="font-bold">
+                Founder &nbsp; 1 JEUNE, &nbsp;1 PROJET :
+              </span>{" "}
+              un groupe dans lequel, j’accompagne chaque jeune de manière
+              personnalisée dans la réalisation de son projet du début à la fin.
             </li>
           </ul>
           <p className="text-lg font-italic leading-relaxed mb-4">
@@ -72,10 +79,10 @@ const About = () => {
               entourez-vous de bonnes personnes.&ldquo;
             </span>
           </p>
-          <p className="text-lg leading-relaxed">
+          {/* <p className="text-lg leading-relaxed">
             Rejoignez-moi dans ma mission d&apos;inspirer, d&apos;innover et de
             créer un impact durable.
-          </p>
+          </p> */}
         </div>
       </div>
     </section>

@@ -25,6 +25,18 @@ const config = {
         "2xl": "1400px",
       },
     },
+    screens: {
+      xx2s: "376px",
+      xxs: "414px",
+      x22s: "459px",
+      x2s: "495px",
+      xs: "571px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
     extend: {
       colors: {
         black: {
