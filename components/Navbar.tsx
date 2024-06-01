@@ -1,11 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
-import {
-  Sheet,
-  SheetContent,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const Navbar = () => {
   const [screenHeight, setScreenHeight] = useState<number>(0);
@@ -43,6 +39,12 @@ const Navbar = () => {
             className="text-white duration-500 ease-in-out hover:text-purple"
           >
             Home
+          </a>
+          <a
+            href="#formations"
+            className="text-white duration-500 ease-in-out hover:text-purple"
+          >
+            Nos formations
           </a>
           <a
             href="#about"
@@ -106,6 +108,12 @@ const Navbar = () => {
                     className="text-white duration-500 ease-in-out hover:text-purple"
                   >
                     Home
+                  </a>
+                  <a
+                    href="#formations"
+                    className="text-white duration-500 ease-in-out hover:text-purple"
+                  >
+                    Nos formations
                   </a>
                   <a
                     href="#about"

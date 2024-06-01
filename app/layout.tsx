@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   description:
     "J'aide les jeunes à créer et développer leurs entreprises pour réaliser leurs rêves.",
   icons: {
-    icon: "/pascal-icon.png",
+    icon: "/pascalfav.png",
   },
 };
 

@@ -9,6 +9,7 @@ import { EnjoyedMoment } from "@/components/EnjoyedMoment";
 import Formation from "@/components/Formation";
 import Hobbies from "@/components/Hobbies";
 import Calend from "@/components/Calend";
+import Training from "@/components/Training";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Projets />
         <EnjoyedMoment />
         <Hobbies />
+        <Training />
         <Clients />
         <Formation />
         <Footer />

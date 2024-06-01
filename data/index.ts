@@ -180,6 +180,74 @@ export const workExperience = [
   },
 ];
 
+export const trainings: {
+  id: number;
+  title: string;
+  desc: string;
+  className: string;
+}[] = [
+  {
+    id: 1,
+    title: "Développer mes compétences",
+    desc: "Cette formation développer mes compétences est conçue pour vous aider à identifier et à améliorer les compétences clés nécessaires pour réussir dans votre carrière et votre vie personnelle. Vous apprendrez à évaluer vos compétences actuelles, à définir des objectifs clairs et à élaborer un plan de développement personnel.",
+    className: "md:col-span-2",
+  },
+  {
+    id: 2,
+    title: "Atteindre la liberté financière",
+    desc: "La formation Atteindre la liberté financière vous guide à travers les principes et les stratégies nécessaires pour gérer efficacement vos finances personnelles et atteindre la liberté financière. Vous apprendrez à élaborer un budget, à investir judicieusement, et à planifier votre avenir financier.",
+    className: "md:col-span-2", // change to md:col-span-2
+  },
+  {
+    id: 3,
+    title: "L'art de la négociation",
+    desc: "L'art de la négociation est une formation conçue pour vous enseigner les compétences essentielles pour négocier efficacement dans divers contextes professionnels et personnels. Vous apprendrez les techniques de négociation, la préparation, et comment atteindre des accords gagnant-gagnant.",
+    className: "md:col-span-2", // change to md:col-span-2
+  },
+  {
+    id: 4,
+    title: "Comment avoir un impact",
+    desc: "La formation Comment avoir un impact est conçue pour vous aider à maximiser votre influence et à faire une différence significative dans votre domaine professionnel et dans la société. Vous apprendrez à identifier vos forces, à communiquer efficacement et à inspirer les autres.",
+    className: "md:col-span-2",
+  },
+  {
+    id: 5,
+    title: "Créer un Projet",
+    desc: "La formation Créer un projet est conçue pour vous aider à transformer vos idées en projets concrets et réalisables. Vous apprendrez à planifier, à structurer et à mettre en œuvre vos projets de manière efficace.",
+    className: "md:col-span-2",
+  },
+  {
+    id: 6,
+    title: "Intégrer le groupe des jeunes ambitieux",
+    desc: "Cette formation vous guide pour intégrer le groupe des jeunes ambitieux millionnaires, en vous fournissant les connaissances et les compétences nécessaires pour réussir financièrement. Vous apprendrez des stratégies d'investissement, de gestion financière, et des habitudes des millionnaires.",
+    className: "md:col-span-2",
+  },
+  {
+    id: 7,
+    title: "Soutien moral",
+    desc: "La formation Soutien moral est conçue pour vous fournir les outils et les techniques nécessaires pour maintenir une bonne santé mentale et soutenir les autres dans des moments difficiles. Vous apprendrez à gérer le stress, à développer la résilience, et à offrir un soutien émotionnel efficace.",
+    className: "md:col-span-2",
+  },
+  {
+    id: 8,
+    title: "Formation sur le leadership",
+    desc: "La Formation sur le leadership est conçue pour vous aider à développer les compétences nécessaires pour devenir un leader efficace. Vous apprendrez les différents styles de leadership, comment motiver et inspirer votre équipe, et comment prendre des décisions stratégiques.",
+    className: "md:col-span-2",
+  },
+  {
+    id: 9,
+    title: "Formation sur l'entrepreneuriat",
+    desc: "La Formation sur l'entrepreneuriat est conçue pour vous guider dans le processus de création et de gestion d'une entreprise. Vous apprendrez à identifier des opportunités d'affaires, à élaborer un plan d'affaires, et à gérer les différents aspects de votre entreprise.",
+    className: "md:col-span-2",
+  },
+  {
+    id: 10,
+    title: "Accompagnement recherche Travail stage alternance",
+    desc: "Cette formation Accompagnement recherche Travail stage alternance est conçue pour vous aider à réussir dans votre recherche d'emploi, de stage ou d'alternance. Vous apprendrez à rédiger un CV et une lettre de motivation efficaces, à préparer des entretiens, et à utiliser les réseaux professionnels pour trouver des opportunités.",
+    className: "md:col-span-2",
+  },
+];
+
 export const socialMedia = [
   {
     id: 1,
