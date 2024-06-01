@@ -28,14 +28,16 @@ const Hero = () => {
             className="object-contain object-center h-full max-w-[500px] md:max-h-[600px] w-full rounded-full z-50 ml-24 xs:ml-0"
           />
         </div>
-        <p className="absolute w-full left-[4%] xx2s:left-[3%] xxs:left-[8%] x22s:left-[16%] x2s:left-[20%] xs:left-[48%] md:left-[55%] max-w-80 top-[98%] xs:top-[80%] text-center text-white-200 md:tracking-wider mb-4 text-base lg:text-lg z-[120]">
+        <p className="absolute w-full left-[2%] xx2s:left-[3%] xxs:left-[8%] x22s:left-[16%] x2s:left-[20%] xs:left-[48%] md:left-[55%] max-w-80 top-[98%] xs:top-[80%] text-center text-white-200 md:tracking-wider mb-4 text-base lg:text-lg z-[120]">
           <span className="text-purple font-semibold">Entrepreneur</span>
           &nbsp;-&nbsp;
           <span className="text-blue-500 font-semibold">Conférencier</span>
           &nbsp;-&nbsp;
           <span className="text-green-500 font-semibold">Motivateur</span>
-          &nbsp; basé en France.
+          &nbsp; basé en France.<br />
+          <span className="block text-white font-bold">+5000 jeunes formés</span>
         </p>
+        
       </div>
     </div>
   );

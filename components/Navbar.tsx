@@ -30,16 +30,16 @@ const Navbar = () => {
       }}
     >
       <div className="flex items-center justify-between h-[70px] max-w-7xl mx-auto">
-        <a href="/" className="text-white font-merriweather font-bold text-2xl">
+        <a href="#" className="text-white font-merriweather font-bold text-2xl">
           PascalCesar.
         </a>
         <div className="md:flex hidden items-center gap-7">
-          <a
+          {/* <a
             href="#"
             className="text-white duration-500 ease-in-out hover:text-purple"
           >
             Home
-          </a>
+          </a> */}
           <a
             href="#formations"
             className="text-white duration-500 ease-in-out hover:text-purple"
@@ -64,12 +64,12 @@ const Navbar = () => {
           >
             Projets
           </a>
-          {/* <a
+          <a
             href="#testimonials"
             className="text-white duration-500 ease-in-out hover:text-purple"
           >
             Témoignages
-          </a> */}
+          </a>
 
           <a
             href="#contact"
