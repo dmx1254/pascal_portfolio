@@ -9,13 +9,14 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { StaticImageData } from "next/image";
 
 export const HeroParallax = ({
   products,
 }: {
   products: {
     title: string;
-    thumbnail: string;
+    thumbnail: StaticImageData;
   }[];
 }) => {
   const firstRow = products.slice(0, 5);
