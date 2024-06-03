@@ -12,7 +12,6 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
-
 export const testimonials = [
   {
     quote:
@@ -176,5 +175,28 @@ export const socialMedia = [
     id: 5,
     img: "/threads.svg",
     path: "https://www.threads.net/@pascal_csr",
+  },
+];
+
+export const companies = [
+  {
+    id: 1,
+    name: "Ice Watch",
+    img: "/sponsors/icewatch.jpg",
+  },
+  {
+    id: 2,
+    name: "Cojet",
+    img: "/sponsors/cojet.jpg",
+  },
+  {
+    id: 3,
+    name: "la Joliverie",
+    img: "/sponsors/joliverie.jpg",
+  },
+  {
+    id: 4,
+    name: "Aéro-club",
+    img: "/sponsors/aero.jpg",
   },
 ];

@@ -53,7 +53,7 @@ const SheetBookContent = ({ title }: { title: string }) => {
                   <span className="font-bold">
                     &ldquo;La route vers la richesse&ldquo;
                   </span>{" "}
-                  par Pascal Cesar Ndecky, une lecture incontournable pour
+                  par Pascal Cesar, une lecture incontournable pour
                   quiconque souhaite atteindre le succès financier.
                 </p>
                 <span className="text-base font-bold">Introduction</span>

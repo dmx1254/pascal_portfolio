@@ -7,18 +7,18 @@ const Hobbies = () => {
       <div className="flex flex-col md:flex-row items-center w-full mx-auto gap-10 rounded-lg overflow-hidden">
         <section className="w-full flex flex-col items-center justify-between p-0">
           {/* <h2 className="text-2xl font-bold mb-4">
-            Pascal César Ndecky : Un Pilote Passionné
+            Pascal César : Un Pilote Passionné
           </h2> */}
           <div className="w-full flex flex-col md:flex-row items-center mt-0 md:mt-60">
             <Image
               src="/pascal/pilote.jpg"
-              alt="Pascal César Ndecky en tant que pilote"
+              alt="Pascal César en tant que pilote"
               width={300}
               height={300}
               className="rounded-lg mb-4 md:mb-0 md:mr-4"
             />
             <p className="text-white-200 max-w-[300px]">
-              Pascal César Ndecky n&apos;est pas seulement un entrepreneur
+              Pascal César n&apos;est pas seulement un entrepreneur
               accompli, il est également un pilote d&apos;avion par passion.
               Durant ses temps libres, Pascal s&apos;envole vers les cieux,
               trouvant une liberté et une inspiration uniques dans le vol. Pour
@@ -33,18 +33,18 @@ const Hobbies = () => {
 
         <section className="w-full flex flex-col items-center justify-between p-0 mb-0 md:mb-20">
           {/* <h2 className="text-2xl font-bold mb-4">
-            Pascal César Ndecky : Conférence à Odoo
+            Pascal César : Conférence à Odoo
           </h2> */}
           <div className="flex flex-col md:flex-row items-center md:items-start">
             <Image
               src="/pascal/conf.jpg"
-              alt="Pascal César Ndecky en conférence à Odoo"
+              alt="Pascal César en conférence à Odoo"
               width={300}
               height={400}
               className="rounded-lg mb-4 md:mb-0 md:mr-4"
             />
             <p className="text-white-200 max-w-[300px]">
-              Pascal César Ndecky est également un conférencier accompli et
+              Pascal César est également un conférencier accompli et
               motivateur. Il a partagé ses expériences sur
               l&apos;entrepreneuriat, l&apos;innovation et la persévérance, tout
               en soulignant l&apos;importance de l&apos;utilisation des

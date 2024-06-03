@@ -1,10 +1,13 @@
-import { trainings } from "@/data";
+import { companies, trainings } from "@/data";
 import React from "react";
 import { Button } from "./ui/MovingBorders";
 
 const Training = () => {
   return (
-    <div className="flex flex-col items-center pt-20 pb-28" id="formations">
+    <div
+      className="flex flex-col items-center justify-center mx-auto pt-20 pb-28"
+      id="formations"
+    >
       <h3 className="text-white text-2xl md:text-4xl font-bold">
         Nos Formations
         <span className="text-purple"> payantes</span>
@@ -29,6 +32,26 @@ const Training = () => {
               </div>
             </div>
           </Button>
+        ))}
+      </div>
+      <h3 className="text-white text-2xl md:text-4xl font-bold pt-12 pb-4">
+        Mes
+        <span className="text-purple"> Sponsors</span>
+      </h3>
+      <div className="grid grid-cols-2 md:grid-cols-4 ml-4 x22s:ml-0 gap-16 x22s:gap-20 pb-10 pt-4">
+        {companies.map((company) => (
+          <React.Fragment key={company.id}>
+            <div className="flex items-center md:max-w-60 max-w-32 gap-3">
+              <img
+                src={company.img}
+                alt={company.name}
+                className="w-12 h-10 rounded object-center"
+              />
+              <span className="font-bold font-merriweather text-white">
+                {company.name}
+              </span>
+            </div>
+          </React.Fragment>
         ))}
       </div>
     </div>
